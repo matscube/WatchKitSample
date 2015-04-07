@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6DB7A5B1AD36E3400CAEA2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DB7A5A1AD36E3400CAEA2C /* AppDelegate.swift */; };
+		F6DB7A5D1AD36E3400CAEA2C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DB7A5C1AD36E3400CAEA2C /* ViewController.swift */; };
+		F6DB7A601AD36E3400CAEA2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6DB7A5E1AD36E3400CAEA2C /* Main.storyboard */; };
+		F6DB7A621AD36E3400CAEA2C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6DB7A611AD36E3400CAEA2C /* Images.xcassets */; };
+		F6DB7A651AD36E3400CAEA2C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6DB7A631AD36E3400CAEA2C /* LaunchScreen.xib */; };
+		F6DB7A711AD36E3400CAEA2C /* DataSharingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DB7A701AD36E3400CAEA2C /* DataSharingTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6DB7A6B1AD36E3400CAEA2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6DB7A4D1AD36E3400CAEA2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6DB7A541AD36E3400CAEA2C;
+			remoteInfo = DataSharing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F6DB7A551AD36E3400CAEA2C /* DataSharing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataSharing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6DB7A591AD36E3400CAEA2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6DB7A5A1AD36E3400CAEA2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F6DB7A5C1AD36E3400CAEA2C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F6DB7A5F1AD36E3400CAEA2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6DB7A611AD36E3400CAEA2C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F6DB7A641AD36E3400CAEA2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F6DB7A6A1AD36E3400CAEA2C /* DataSharingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataSharingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6DB7A6F1AD36E3400CAEA2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6DB7A701AD36E3400CAEA2C /* DataSharingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSharingTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6DB7A521AD36E3400CAEA2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6DB7A671AD36E3400CAEA2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6DB7A4C1AD36E3400CAEA2C = {
+			isa = PBXGroup;
+			children = (
+				F6DB7A571AD36E3400CAEA2C /* DataSharing */,
+				F6DB7A6D1AD36E3400CAEA2C /* DataSharingTests */,
+				F6DB7A561AD36E3400CAEA2C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6DB7A561AD36E3400CAEA2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6DB7A551AD36E3400CAEA2C /* DataSharing.app */,
+				F6DB7A6A1AD36E3400CAEA2C /* DataSharingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6DB7A571AD36E3400CAEA2C /* DataSharing */ = {
+			isa = PBXGroup;
+			children = (
+				F6DB7A5A1AD36E3400CAEA2C /* AppDelegate.swift */,
+				F6DB7A5C1AD36E3400CAEA2C /* ViewController.swift */,
+				F6DB7A5E1AD36E3400CAEA2C /* Main.storyboard */,
+				F6DB7A611AD36E3400CAEA2C /* Images.xcassets */,
+				F6DB7A631AD36E3400CAEA2C /* LaunchScreen.xib */,
+				F6DB7A581AD36E3400CAEA2C /* Supporting Files */,
+			);
+			path = DataSharing;
+			sourceTree = "<group>";
+		};
+		F6DB7A581AD36E3400CAEA2C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6DB7A591AD36E3400CAEA2C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F6DB7A6D1AD36E3400CAEA2C /* DataSharingTests */ = {
+			isa = PBXGroup;
+			children = (
+				F6DB7A701AD36E3400CAEA2C /* DataSharingTests.swift */,
+				F6DB7A6E1AD36E3400CAEA2C /* Supporting Files */,
+			);
+			path = DataSharingTests;
+			sourceTree = "<group>";
+		};
+		F6DB7A6E1AD36E3400CAEA2C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6DB7A6F1AD36E3400CAEA2C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6DB7A541AD36E3400CAEA2C /* DataSharing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6DB7A741AD36E3400CAEA2C /* Build configuration list for PBXNativeTarget "DataSharing" */;
+			buildPhases = (
+				F6DB7A511AD36E3400CAEA2C /* Sources */,
+				F6DB7A521AD36E3400CAEA2C /* Frameworks */,
+				F6DB7A531AD36E3400CAEA2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DataSharing;
+			productName = DataSharing;
+			productReference = F6DB7A551AD36E3400CAEA2C /* DataSharing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6DB7A691AD36E3400CAEA2C /* DataSharingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6DB7A771AD36E3400CAEA2C /* Build configuration list for PBXNativeTarget "DataSharingTests" */;
+			buildPhases = (
+				F6DB7A661AD36E3400CAEA2C /* Sources */,
+				F6DB7A671AD36E3400CAEA2C /* Frameworks */,
+				F6DB7A681AD36E3400CAEA2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6DB7A6C1AD36E3400CAEA2C /* PBXTargetDependency */,
+			);
+			name = DataSharingTests;
+			productName = DataSharingTests;
+			productReference = F6DB7A6A1AD36E3400CAEA2C /* DataSharingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6DB7A4D1AD36E3400CAEA2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = TakanoriMatsumoto;
+				TargetAttributes = {
+					F6DB7A541AD36E3400CAEA2C = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					F6DB7A691AD36E3400CAEA2C = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = F6DB7A541AD36E3400CAEA2C;
+					};
+				};
+			};
+			buildConfigurationList = F6DB7A501AD36E3400CAEA2C /* Build configuration list for PBXProject "DataSharing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6DB7A4C1AD36E3400CAEA2C;
+			productRefGroup = F6DB7A561AD36E3400CAEA2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6DB7A541AD36E3400CAEA2C /* DataSharing */,
+				F6DB7A691AD36E3400CAEA2C /* DataSharingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6DB7A531AD36E3400CAEA2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6DB7A601AD36E3400CAEA2C /* Main.storyboard in Resources */,
+				F6DB7A651AD36E3400CAEA2C /* LaunchScreen.xib in Resources */,
+				F6DB7A621AD36E3400CAEA2C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6DB7A681AD36E3400CAEA2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6DB7A511AD36E3400CAEA2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6DB7A5D1AD36E3400CAEA2C /* ViewController.swift in Sources */,
+				F6DB7A5B1AD36E3400CAEA2C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6DB7A661AD36E3400CAEA2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6DB7A711AD36E3400CAEA2C /* DataSharingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6DB7A6C1AD36E3400CAEA2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6DB7A541AD36E3400CAEA2C /* DataSharing */;
+			targetProxy = F6DB7A6B1AD36E3400CAEA2C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F6DB7A5E1AD36E3400CAEA2C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6DB7A5F1AD36E3400CAEA2C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F6DB7A631AD36E3400CAEA2C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6DB7A641AD36E3400CAEA2C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6DB7A721AD36E3400CAEA2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F6DB7A731AD36E3400CAEA2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6DB7A751AD36E3400CAEA2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DataSharing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F6DB7A761AD36E3400CAEA2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DataSharing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F6DB7A781AD36E3400CAEA2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DataSharingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DataSharing.app/DataSharing";
+			};
+			name = Debug;
+		};
+		F6DB7A791AD36E3400CAEA2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DataSharingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DataSharing.app/DataSharing";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6DB7A501AD36E3400CAEA2C /* Build configuration list for PBXProject "DataSharing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6DB7A721AD36E3400CAEA2C /* Debug */,
+				F6DB7A731AD36E3400CAEA2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6DB7A741AD36E3400CAEA2C /* Build configuration list for PBXNativeTarget "DataSharing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6DB7A751AD36E3400CAEA2C /* Debug */,
+				F6DB7A761AD36E3400CAEA2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F6DB7A771AD36E3400CAEA2C /* Build configuration list for PBXNativeTarget "DataSharingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6DB7A781AD36E3400CAEA2C /* Debug */,
+				F6DB7A791AD36E3400CAEA2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6DB7A4D1AD36E3400CAEA2C /* Project object */;
+}
