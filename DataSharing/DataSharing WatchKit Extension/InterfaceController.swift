@@ -9,6 +9,7 @@
 import WatchKit
 import Foundation
 
+let groupName = "group.com.sandbox"
 
 class InterfaceController: WKInterfaceController {
 
@@ -16,6 +17,9 @@ class InterfaceController: WKInterfaceController {
         super.awakeWithContext(context)
         
         // Configure interface objects here.
+        loadTest()
+        
+        println("hoge")
     }
 
     override func willActivate() {
@@ -28,4 +32,11 @@ class InterfaceController: WKInterfaceController {
         super.didDeactivate()
     }
 
+    // MARK: datasource
+    func loadTest() {
+        // MARK: common userDefaults
+        let commonUserDefaults = NSUserDefaults(suiteName: groupName)!
+        // load
+        println(commonUserDefaults.valueForKey("Sample"))
+    }
 }

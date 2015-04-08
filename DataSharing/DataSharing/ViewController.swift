@@ -8,11 +8,24 @@
 
 import UIKit
 
+let groupName = "group.com.sandbox"
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        saveTest()
+    }
+    
+    func saveTest() {
+        // MARK: common userDefaults
+        let commonUserDefaults = NSUserDefaults(suiteName: groupName)!
+        // save
+        commonUserDefaults.setValue(1, forKey: "Sample")
+        // load
+        println(commonUserDefaults.valueForKey("Sample"))
     }
 
     override func didReceiveMemoryWarning() {
