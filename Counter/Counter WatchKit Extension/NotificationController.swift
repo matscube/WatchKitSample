@@ -1,8 +1,8 @@
 //
 //  NotificationController.swift
-//  DataSharing WatchKit Extension
+//  Counter WatchKit Extension
 //
-//  Created by TakanoriMatsumoto on 2015/04/07.
+//  Created by TakanoriMatsumoto on 2015/04/08.
 //  Copyright (c) 2015年 TakanoriMatsumoto. All rights reserved.
 //
 
@@ -50,6 +50,4 @@ class NotificationController: WKUserNotificationInterfaceController {
         completionHandler(.Custom)
     }
     */
-    
-
 }

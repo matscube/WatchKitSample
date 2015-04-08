@@ -1,25 +1,25 @@
 //
 //  InterfaceController.swift
-//  DataSharing WatchKit Extension
+//  Counter WatchKit Extension
 //
-//  Created by TakanoriMatsumoto on 2015/04/07.
+//  Created by TakanoriMatsumoto on 2015/04/08.
 //  Copyright (c) 2015年 TakanoriMatsumoto. All rights reserved.
 //
 
 import WatchKit
 import Foundation
 
-let groupName = "group.com.sandbox"
 
 class InterfaceController: WKInterfaceController {
+
+    @IBOutlet weak var button: WKInterfaceButton!
+    var counter = Counter()
 
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
         
         // Configure interface objects here.
-        loadTest()
         
-        println("hoge")
     }
 
     override func willActivate() {
@@ -32,11 +32,9 @@ class InterfaceController: WKInterfaceController {
         super.didDeactivate()
     }
 
-    // MARK: datasource
-    func loadTest() {
-        // MARK: common userDefaults
-        let commonUserDefaults = NSUserDefaults(suiteName: groupName)!
-        // load
-        println(commonUserDefaults.valueForKey("Sample"))
+    @IBAction func increaseCount() {
+        
+        counter.increase()
+        button.setTitle("\(counter.count)")
     }
 }
