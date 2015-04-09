@@ -1,0 +1,19 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '6.0'
+use_frameworks!
+
+target 'SharedDB' do
+    pod 'Realm'
+end
+
+target 'SharedDBTests' do
+    pod 'Realm/Headers'
+end
+
+target 'SharedDB WatchKit Extension' do
+    pod 'Realm'
+end
+
+target 'SharedDB WatchKit App' do
+    pod 'Realm'
+end

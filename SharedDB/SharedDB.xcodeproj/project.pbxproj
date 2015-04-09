@@ -1,0 +1,1122 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07E6213F0DA960F23725032D /* Pods_SharedDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82E465A3363321D0B86B91A8 /* Pods_SharedDB.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		239E62F5413C086A2C05D532 /* Pods_SharedDB_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C0C53E916C71A6723DA6494 /* Pods_SharedDB_WatchKit_App.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		26195B6B86294AAF87E76DAC /* Pods_SharedDB_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 031DC43072B8CC0D793C58EE /* Pods_SharedDB_WatchKit_Extension.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		F66E35771AD61F0B0035A786 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66E35761AD61F0B0035A786 /* AppDelegate.swift */; };
+		F66E35791AD61F0B0035A786 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66E35781AD61F0B0035A786 /* ViewController.swift */; };
+		F66E357C1AD61F0B0035A786 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F66E357A1AD61F0B0035A786 /* Main.storyboard */; };
+		F66E357E1AD61F0B0035A786 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F66E357D1AD61F0B0035A786 /* Images.xcassets */; };
+		F66E35811AD61F0B0035A786 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F66E357F1AD61F0B0035A786 /* LaunchScreen.xib */; };
+		F66E358D1AD61F0B0035A786 /* SharedDBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66E358C1AD61F0B0035A786 /* SharedDBTests.swift */; };
+		F66E35A01AD61F2E0035A786 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66E359F1AD61F2E0035A786 /* InterfaceController.swift */; };
+		F66E35A21AD61F2E0035A786 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66E35A11AD61F2E0035A786 /* NotificationController.swift */; };
+		F66E35A41AD61F2E0035A786 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F66E35A31AD61F2E0035A786 /* Images.xcassets */; };
+		F66E35A81AD61F2E0035A786 /* SharedDB WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = F66E35A71AD61F2E0035A786 /* SharedDB WatchKit App.app */; };
+		F66E35B01AD61F2E0035A786 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F66E35AE1AD61F2E0035A786 /* Interface.storyboard */; };
+		F66E35B21AD61F2E0035A786 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F66E35B11AD61F2E0035A786 /* Images.xcassets */; };
+		F66E35B51AD61F2E0035A786 /* SharedDB WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F66E359A1AD61F2E0035A786 /* SharedDB WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F66E35BF1AD622A20035A786 /* RLMSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66E35BE1AD622A20035A786 /* RLMSupport.swift */; };
+		F66E35C11AD623160035A786 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66E35C01AD623160035A786 /* DBManager.swift */; };
+		F66E35DD1AD627D00035A786 /* RealmDBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66E35DC1AD627D00035A786 /* RealmDBTests.swift */; };
+		F66E35EC1AD6404E0035A786 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66E35C01AD623160035A786 /* DBManager.swift */; };
+		F66E35ED1AD6405A0035A786 /* RLMSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66E35BE1AD622A20035A786 /* RLMSupport.swift */; };
+		F9AA7953EDB7EEC1FA03FF6D /* Pods_SharedDBTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C339DEF2389919AABF8892D9 /* Pods_SharedDBTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F66E35871AD61F0B0035A786 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F66E35691AD61F0B0035A786 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F66E35701AD61F0B0035A786;
+			remoteInfo = SharedDB;
+		};
+		F66E35A91AD61F2E0035A786 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F66E35691AD61F0B0035A786 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F66E35A61AD61F2E0035A786;
+			remoteInfo = "SharedDB WatchKit App";
+		};
+		F66E35B31AD61F2E0035A786 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F66E35691AD61F0B0035A786 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F66E35991AD61F2E0035A786;
+			remoteInfo = "SharedDB WatchKit Extension";
+		};
+		F66E35D71AD627D00035A786 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F66E35691AD61F0B0035A786 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F66E35701AD61F0B0035A786;
+			remoteInfo = SharedDB;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F66E35BC1AD61F2E0035A786 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F66E35B51AD61F2E0035A786 /* SharedDB WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F66E35E51AD627D00035A786 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		031DC43072B8CC0D793C58EE /* Pods_SharedDB_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SharedDB_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A72D4D82A1497F3B241C4EB /* Pods_RealmDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealmDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3113A11C7C2ACD2A7092126E /* Pods-SharedDBTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SharedDBTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SharedDBTests/Pods-SharedDBTests.debug.xcconfig"; sourceTree = "<group>"; };
+		588EEC1F135E7AF9F5ACFE71 /* Pods-SharedDB WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SharedDB WatchKit Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-SharedDB WatchKit Extension/Pods-SharedDB WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		72D26DBA0ED1985F33B288F2 /* Pods-SharedDBTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SharedDBTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SharedDBTests/Pods-SharedDBTests.release.xcconfig"; sourceTree = "<group>"; };
+		82E465A3363321D0B86B91A8 /* Pods_SharedDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SharedDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C0C53E916C71A6723DA6494 /* Pods_SharedDB_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SharedDB_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5A50E209C3412DD457A12C0 /* Pods-SharedDB WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SharedDB WatchKit App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SharedDB WatchKit App/Pods-SharedDB WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		BC29A264BFDCB75A1D08F7C2 /* Pods-RealmDB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmDB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RealmDB/Pods-RealmDB.debug.xcconfig"; sourceTree = "<group>"; };
+		C339DEF2389919AABF8892D9 /* Pods_SharedDBTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SharedDBTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED28F0980309E1499B97E2C /* Pods-SharedDB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SharedDB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SharedDB/Pods-SharedDB.debug.xcconfig"; sourceTree = "<group>"; };
+		D14C510F73718235B1487443 /* Pods-RealmDB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmDB.release.xcconfig"; path = "Pods/Target Support Files/Pods-RealmDB/Pods-RealmDB.release.xcconfig"; sourceTree = "<group>"; };
+		E12FA3A3DABB592087C0F129 /* Pods-SharedDB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SharedDB.release.xcconfig"; path = "Pods/Target Support Files/Pods-SharedDB/Pods-SharedDB.release.xcconfig"; sourceTree = "<group>"; };
+		E991900BEB01DB715FEE96A0 /* Pods-SharedDB WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SharedDB WatchKit Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SharedDB WatchKit Extension/Pods-SharedDB WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		F66E35711AD61F0B0035A786 /* SharedDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SharedDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F66E35751AD61F0B0035A786 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F66E35761AD61F0B0035A786 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F66E35781AD61F0B0035A786 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F66E357B1AD61F0B0035A786 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F66E357D1AD61F0B0035A786 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F66E35801AD61F0B0035A786 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F66E35861AD61F0B0035A786 /* SharedDBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SharedDBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F66E358B1AD61F0B0035A786 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F66E358C1AD61F0B0035A786 /* SharedDBTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedDBTests.swift; sourceTree = "<group>"; };
+		F66E359A1AD61F2E0035A786 /* SharedDB WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SharedDB WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F66E359D1AD61F2E0035A786 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F66E359E1AD61F2E0035A786 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		F66E359F1AD61F2E0035A786 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		F66E35A11AD61F2E0035A786 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		F66E35A31AD61F2E0035A786 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F66E35A71AD61F2E0035A786 /* SharedDB WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SharedDB WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F66E35AD1AD61F2E0035A786 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F66E35AF1AD61F2E0035A786 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		F66E35B11AD61F2E0035A786 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F66E35BE1AD622A20035A786 /* RLMSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RLMSupport.swift; sourceTree = "<group>"; };
+		F66E35C01AD623160035A786 /* DBManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+		F66E35C21AD623D20035A786 /* SharedDB.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = SharedDB.entitlements; sourceTree = "<group>"; };
+		F66E35C31AD623E80035A786 /* SharedDB WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "SharedDB WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		F66E35D31AD627D00035A786 /* RealmDBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealmDBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F66E35DB1AD627D00035A786 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F66E35DC1AD627D00035A786 /* RealmDBTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmDBTests.swift; sourceTree = "<group>"; };
+		FF7949A63E21AC6FABDF11D8 /* Pods-SharedDB WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SharedDB WatchKit App.release.xcconfig"; path = "Pods/Target Support Files/Pods-SharedDB WatchKit App/Pods-SharedDB WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65B59B26E5911593AC100434 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				239E62F5413C086A2C05D532 /* Pods_SharedDB_WatchKit_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F66E356E1AD61F0B0035A786 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07E6213F0DA960F23725032D /* Pods_SharedDB.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F66E35831AD61F0B0035A786 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9AA7953EDB7EEC1FA03FF6D /* Pods_SharedDBTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F66E35971AD61F2E0035A786 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26195B6B86294AAF87E76DAC /* Pods_SharedDB_WatchKit_Extension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F66E35D01AD627D00035A786 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F890E1E74323E4A5133E7CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82E465A3363321D0B86B91A8 /* Pods_SharedDB.framework */,
+				9C0C53E916C71A6723DA6494 /* Pods_SharedDB_WatchKit_App.framework */,
+				031DC43072B8CC0D793C58EE /* Pods_SharedDB_WatchKit_Extension.framework */,
+				C339DEF2389919AABF8892D9 /* Pods_SharedDBTests.framework */,
+				1A72D4D82A1497F3B241C4EB /* Pods_RealmDB.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA26FE7830E4711566246003 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CED28F0980309E1499B97E2C /* Pods-SharedDB.debug.xcconfig */,
+				E12FA3A3DABB592087C0F129 /* Pods-SharedDB.release.xcconfig */,
+				A5A50E209C3412DD457A12C0 /* Pods-SharedDB WatchKit App.debug.xcconfig */,
+				FF7949A63E21AC6FABDF11D8 /* Pods-SharedDB WatchKit App.release.xcconfig */,
+				E991900BEB01DB715FEE96A0 /* Pods-SharedDB WatchKit Extension.debug.xcconfig */,
+				588EEC1F135E7AF9F5ACFE71 /* Pods-SharedDB WatchKit Extension.release.xcconfig */,
+				3113A11C7C2ACD2A7092126E /* Pods-SharedDBTests.debug.xcconfig */,
+				72D26DBA0ED1985F33B288F2 /* Pods-SharedDBTests.release.xcconfig */,
+				BC29A264BFDCB75A1D08F7C2 /* Pods-RealmDB.debug.xcconfig */,
+				D14C510F73718235B1487443 /* Pods-RealmDB.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F66E35681AD61F0B0035A786 = {
+			isa = PBXGroup;
+			children = (
+				F66E35C01AD623160035A786 /* DBManager.swift */,
+				F66E35BE1AD622A20035A786 /* RLMSupport.swift */,
+				F66E35731AD61F0B0035A786 /* SharedDB */,
+				F66E35891AD61F0B0035A786 /* SharedDBTests */,
+				F66E359B1AD61F2E0035A786 /* SharedDB WatchKit Extension */,
+				F66E35AB1AD61F2E0035A786 /* SharedDB WatchKit App */,
+				F66E35D91AD627D00035A786 /* RealmDBTests */,
+				F66E35721AD61F0B0035A786 /* Products */,
+				AA26FE7830E4711566246003 /* Pods */,
+				9F890E1E74323E4A5133E7CC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F66E35721AD61F0B0035A786 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F66E35711AD61F0B0035A786 /* SharedDB.app */,
+				F66E35861AD61F0B0035A786 /* SharedDBTests.xctest */,
+				F66E359A1AD61F2E0035A786 /* SharedDB WatchKit Extension.appex */,
+				F66E35A71AD61F2E0035A786 /* SharedDB WatchKit App.app */,
+				F66E35D31AD627D00035A786 /* RealmDBTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F66E35731AD61F0B0035A786 /* SharedDB */ = {
+			isa = PBXGroup;
+			children = (
+				F66E35C21AD623D20035A786 /* SharedDB.entitlements */,
+				F66E35761AD61F0B0035A786 /* AppDelegate.swift */,
+				F66E35781AD61F0B0035A786 /* ViewController.swift */,
+				F66E357A1AD61F0B0035A786 /* Main.storyboard */,
+				F66E357D1AD61F0B0035A786 /* Images.xcassets */,
+				F66E357F1AD61F0B0035A786 /* LaunchScreen.xib */,
+				F66E35741AD61F0B0035A786 /* Supporting Files */,
+			);
+			path = SharedDB;
+			sourceTree = "<group>";
+		};
+		F66E35741AD61F0B0035A786 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F66E35751AD61F0B0035A786 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F66E35891AD61F0B0035A786 /* SharedDBTests */ = {
+			isa = PBXGroup;
+			children = (
+				F66E358C1AD61F0B0035A786 /* SharedDBTests.swift */,
+				F66E358A1AD61F0B0035A786 /* Supporting Files */,
+			);
+			path = SharedDBTests;
+			sourceTree = "<group>";
+		};
+		F66E358A1AD61F0B0035A786 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F66E358B1AD61F0B0035A786 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F66E359B1AD61F2E0035A786 /* SharedDB WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F66E35C31AD623E80035A786 /* SharedDB WatchKit Extension.entitlements */,
+				F66E359F1AD61F2E0035A786 /* InterfaceController.swift */,
+				F66E35A11AD61F2E0035A786 /* NotificationController.swift */,
+				F66E35A31AD61F2E0035A786 /* Images.xcassets */,
+				F66E359C1AD61F2E0035A786 /* Supporting Files */,
+			);
+			path = "SharedDB WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		F66E359C1AD61F2E0035A786 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F66E359D1AD61F2E0035A786 /* Info.plist */,
+				F66E359E1AD61F2E0035A786 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F66E35AB1AD61F2E0035A786 /* SharedDB WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				F66E35AE1AD61F2E0035A786 /* Interface.storyboard */,
+				F66E35B11AD61F2E0035A786 /* Images.xcassets */,
+				F66E35AC1AD61F2E0035A786 /* Supporting Files */,
+			);
+			path = "SharedDB WatchKit App";
+			sourceTree = "<group>";
+		};
+		F66E35AC1AD61F2E0035A786 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F66E35AD1AD61F2E0035A786 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F66E35D91AD627D00035A786 /* RealmDBTests */ = {
+			isa = PBXGroup;
+			children = (
+				F66E35DC1AD627D00035A786 /* RealmDBTests.swift */,
+				F66E35DA1AD627D00035A786 /* Supporting Files */,
+			);
+			path = RealmDBTests;
+			sourceTree = "<group>";
+		};
+		F66E35DA1AD627D00035A786 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F66E35DB1AD627D00035A786 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F66E35701AD61F0B0035A786 /* SharedDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F66E35901AD61F0B0035A786 /* Build configuration list for PBXNativeTarget "SharedDB" */;
+			buildPhases = (
+				0F2C9AFA7A4A0852A323EA7D /* Check Pods Manifest.lock */,
+				F66E356D1AD61F0B0035A786 /* Sources */,
+				F66E356E1AD61F0B0035A786 /* Frameworks */,
+				F66E356F1AD61F0B0035A786 /* Resources */,
+				F66E35BC1AD61F2E0035A786 /* Embed App Extensions */,
+				A6C866E123641CD17463E783 /* Copy Pods Resources */,
+				0156282CF93D64E3D54E1A0C /* Embed Pods Frameworks */,
+				F66E35E51AD627D00035A786 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F66E35B41AD61F2E0035A786 /* PBXTargetDependency */,
+			);
+			name = SharedDB;
+			productName = SharedDB;
+			productReference = F66E35711AD61F0B0035A786 /* SharedDB.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F66E35851AD61F0B0035A786 /* SharedDBTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F66E35931AD61F0B0035A786 /* Build configuration list for PBXNativeTarget "SharedDBTests" */;
+			buildPhases = (
+				DD14134E8FDC746B8D8200FA /* Check Pods Manifest.lock */,
+				F66E35821AD61F0B0035A786 /* Sources */,
+				F66E35831AD61F0B0035A786 /* Frameworks */,
+				F66E35841AD61F0B0035A786 /* Resources */,
+				DD788DA8E0B0CFA06CC73F6E /* Copy Pods Resources */,
+				701AD6ED6A32E5278F1DC4D7 /* Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F66E35881AD61F0B0035A786 /* PBXTargetDependency */,
+			);
+			name = SharedDBTests;
+			productName = SharedDBTests;
+			productReference = F66E35861AD61F0B0035A786 /* SharedDBTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F66E35991AD61F2E0035A786 /* SharedDB WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F66E35B91AD61F2E0035A786 /* Build configuration list for PBXNativeTarget "SharedDB WatchKit Extension" */;
+			buildPhases = (
+				077DC381D7FD7D1E18045BD8 /* Check Pods Manifest.lock */,
+				F66E35961AD61F2E0035A786 /* Sources */,
+				F66E35971AD61F2E0035A786 /* Frameworks */,
+				F66E35981AD61F2E0035A786 /* Resources */,
+				E14E94C3066AA973173285EA /* Copy Pods Resources */,
+				45C862C37F9B1F478BFD383C /* Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F66E35AA1AD61F2E0035A786 /* PBXTargetDependency */,
+			);
+			name = "SharedDB WatchKit Extension";
+			productName = "SharedDB WatchKit Extension";
+			productReference = F66E359A1AD61F2E0035A786 /* SharedDB WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		F66E35A61AD61F2E0035A786 /* SharedDB WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F66E35B61AD61F2E0035A786 /* Build configuration list for PBXNativeTarget "SharedDB WatchKit App" */;
+			buildPhases = (
+				61DFF0423BAC4CB0A1D41007 /* Check Pods Manifest.lock */,
+				F66E35A51AD61F2E0035A786 /* Resources */,
+				65B59B26E5911593AC100434 /* Frameworks */,
+				E066584DFF30F0E4F92C2811 /* Copy Pods Resources */,
+				F2A80285837794D5E6E69EE4 /* Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SharedDB WatchKit App";
+			productName = "SharedDB WatchKit App";
+			productReference = F66E35A71AD61F2E0035A786 /* SharedDB WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+		F66E35D21AD627D00035A786 /* RealmDBTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F66E35E61AD627D00035A786 /* Build configuration list for PBXNativeTarget "RealmDBTests" */;
+			buildPhases = (
+				F66E35CF1AD627D00035A786 /* Sources */,
+				F66E35D01AD627D00035A786 /* Frameworks */,
+				F66E35D11AD627D00035A786 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F66E35D81AD627D00035A786 /* PBXTargetDependency */,
+			);
+			name = RealmDBTests;
+			productName = RealmDBTests;
+			productReference = F66E35D31AD627D00035A786 /* RealmDBTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F66E35691AD61F0B0035A786 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = TakanoriMatsumoto;
+				TargetAttributes = {
+					F66E35701AD61F0B0035A786 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = V2TW87W9BE;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					F66E35851AD61F0B0035A786 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = F66E35701AD61F0B0035A786;
+					};
+					F66E35991AD61F2E0035A786 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = V2TW87W9BE;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					F66E35A61AD61F2E0035A786 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = V2TW87W9BE;
+					};
+					F66E35D21AD627D00035A786 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = F66E35701AD61F0B0035A786;
+					};
+				};
+			};
+			buildConfigurationList = F66E356C1AD61F0B0035A786 /* Build configuration list for PBXProject "SharedDB" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F66E35681AD61F0B0035A786;
+			productRefGroup = F66E35721AD61F0B0035A786 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F66E35701AD61F0B0035A786 /* SharedDB */,
+				F66E35851AD61F0B0035A786 /* SharedDBTests */,
+				F66E35991AD61F2E0035A786 /* SharedDB WatchKit Extension */,
+				F66E35A61AD61F2E0035A786 /* SharedDB WatchKit App */,
+				F66E35D21AD627D00035A786 /* RealmDBTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F66E356F1AD61F0B0035A786 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F66E357C1AD61F0B0035A786 /* Main.storyboard in Resources */,
+				F66E35811AD61F0B0035A786 /* LaunchScreen.xib in Resources */,
+				F66E357E1AD61F0B0035A786 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F66E35841AD61F0B0035A786 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F66E35981AD61F2E0035A786 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F66E35A41AD61F2E0035A786 /* Images.xcassets in Resources */,
+				F66E35A81AD61F2E0035A786 /* SharedDB WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F66E35A51AD61F2E0035A786 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F66E35B01AD61F2E0035A786 /* Interface.storyboard in Resources */,
+				F66E35B21AD61F2E0035A786 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F66E35D11AD627D00035A786 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0156282CF93D64E3D54E1A0C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SharedDB/Pods-SharedDB-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		077DC381D7FD7D1E18045BD8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0F2C9AFA7A4A0852A323EA7D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		45C862C37F9B1F478BFD383C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SharedDB WatchKit Extension/Pods-SharedDB WatchKit Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61DFF0423BAC4CB0A1D41007 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		701AD6ED6A32E5278F1DC4D7 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SharedDBTests/Pods-SharedDBTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6C866E123641CD17463E783 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SharedDB/Pods-SharedDB-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD14134E8FDC746B8D8200FA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DD788DA8E0B0CFA06CC73F6E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SharedDBTests/Pods-SharedDBTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E066584DFF30F0E4F92C2811 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SharedDB WatchKit App/Pods-SharedDB WatchKit App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E14E94C3066AA973173285EA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SharedDB WatchKit Extension/Pods-SharedDB WatchKit Extension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2A80285837794D5E6E69EE4 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SharedDB WatchKit App/Pods-SharedDB WatchKit App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F66E356D1AD61F0B0035A786 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F66E35791AD61F0B0035A786 /* ViewController.swift in Sources */,
+				F66E35BF1AD622A20035A786 /* RLMSupport.swift in Sources */,
+				F66E35771AD61F0B0035A786 /* AppDelegate.swift in Sources */,
+				F66E35C11AD623160035A786 /* DBManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F66E35821AD61F0B0035A786 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F66E358D1AD61F0B0035A786 /* SharedDBTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F66E35961AD61F2E0035A786 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F66E35ED1AD6405A0035A786 /* RLMSupport.swift in Sources */,
+				F66E35EC1AD6404E0035A786 /* DBManager.swift in Sources */,
+				F66E35A21AD61F2E0035A786 /* NotificationController.swift in Sources */,
+				F66E35A01AD61F2E0035A786 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F66E35CF1AD627D00035A786 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F66E35DD1AD627D00035A786 /* RealmDBTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F66E35881AD61F0B0035A786 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F66E35701AD61F0B0035A786 /* SharedDB */;
+			targetProxy = F66E35871AD61F0B0035A786 /* PBXContainerItemProxy */;
+		};
+		F66E35AA1AD61F2E0035A786 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F66E35A61AD61F2E0035A786 /* SharedDB WatchKit App */;
+			targetProxy = F66E35A91AD61F2E0035A786 /* PBXContainerItemProxy */;
+		};
+		F66E35B41AD61F2E0035A786 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F66E35991AD61F2E0035A786 /* SharedDB WatchKit Extension */;
+			targetProxy = F66E35B31AD61F2E0035A786 /* PBXContainerItemProxy */;
+		};
+		F66E35D81AD627D00035A786 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F66E35701AD61F0B0035A786 /* SharedDB */;
+			targetProxy = F66E35D71AD627D00035A786 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F66E357A1AD61F0B0035A786 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F66E357B1AD61F0B0035A786 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F66E357F1AD61F0B0035A786 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F66E35801AD61F0B0035A786 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		F66E35AE1AD61F2E0035A786 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F66E35AF1AD61F2E0035A786 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F66E358E1AD61F0B0035A786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F66E358F1AD61F0B0035A786 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F66E35911AD61F0B0035A786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CED28F0980309E1499B97E2C /* Pods-SharedDB.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SharedDB/SharedDB.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = SharedDB/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		F66E35921AD61F0B0035A786 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E12FA3A3DABB592087C0F129 /* Pods-SharedDB.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SharedDB/SharedDB.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = SharedDB/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		F66E35941AD61F0B0035A786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3113A11C7C2ACD2A7092126E /* Pods-SharedDBTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SharedDBTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SharedDB.app/SharedDB";
+			};
+			name = Debug;
+		};
+		F66E35951AD61F0B0035A786 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72D26DBA0ED1985F33B288F2 /* Pods-SharedDBTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SharedDBTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SharedDB.app/SharedDB";
+			};
+			name = Release;
+		};
+		F66E35B71AD61F2E0035A786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5A50E209C3412DD457A12C0 /* Pods-SharedDB WatchKit App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = SharedDB_WatchKit_Extension;
+				INFOPLIST_FILE = "SharedDB WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		F66E35B81AD61F2E0035A786 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF7949A63E21AC6FABDF11D8 /* Pods-SharedDB WatchKit App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IBSC_MODULE = SharedDB_WatchKit_Extension;
+				INFOPLIST_FILE = "SharedDB WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		F66E35BA1AD61F2E0035A786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E991900BEB01DB715FEE96A0 /* Pods-SharedDB WatchKit Extension.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "SharedDB WatchKit Extension/SharedDB WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SharedDB WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F66E35BB1AD61F2E0035A786 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 588EEC1F135E7AF9F5ACFE71 /* Pods-SharedDB WatchKit Extension.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "SharedDB WatchKit Extension/SharedDB WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "SharedDB WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F66E35E71AD627D00035A786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RealmDBTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SharedDB.app/SharedDB";
+			};
+			name = Debug;
+		};
+		F66E35E81AD627D00035A786 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RealmDBTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SharedDB.app/SharedDB";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F66E356C1AD61F0B0035A786 /* Build configuration list for PBXProject "SharedDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F66E358E1AD61F0B0035A786 /* Debug */,
+				F66E358F1AD61F0B0035A786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F66E35901AD61F0B0035A786 /* Build configuration list for PBXNativeTarget "SharedDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F66E35911AD61F0B0035A786 /* Debug */,
+				F66E35921AD61F0B0035A786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F66E35931AD61F0B0035A786 /* Build configuration list for PBXNativeTarget "SharedDBTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F66E35941AD61F0B0035A786 /* Debug */,
+				F66E35951AD61F0B0035A786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F66E35B61AD61F2E0035A786 /* Build configuration list for PBXNativeTarget "SharedDB WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F66E35B71AD61F2E0035A786 /* Debug */,
+				F66E35B81AD61F2E0035A786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F66E35B91AD61F2E0035A786 /* Build configuration list for PBXNativeTarget "SharedDB WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F66E35BA1AD61F2E0035A786 /* Debug */,
+				F66E35BB1AD61F2E0035A786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F66E35E61AD627D00035A786 /* Build configuration list for PBXNativeTarget "RealmDBTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F66E35E71AD627D00035A786 /* Debug */,
+				F66E35E81AD627D00035A786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F66E35691AD61F0B0035A786 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_SharedDB_WatchKit_App {
+  umbrella header "Pods-SharedDB WatchKit App-umbrella.h"
+
+  export *
+  module * { export * }
+}
